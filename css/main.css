@@ -95,17 +95,12 @@ header nav ul li a{
 	
 }
 
-.main-image {
-	
-}
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	
-}
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
@@ -176,3 +171,69 @@ footer span {
 	color: #77a466;
 	font-size: 0.875em;
 }
+
+/******** TABLET MEDIA QUERY ********/
+@media all and (min-width: 768px) {
+    
+	/******** BOTTOM SECTION ********/
+
+.bottom-section .content-wrapper
+{
+	justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #eee;
+}
+.section-one {
+	width: 25%;
+}
+
+.section-two {
+	width: 40%;
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+	border-top: none;
+	border-bottom: none;
+	padding: 0 30px;
+}
+
+.section-three {
+    flex-basis: 30%;
+	border-top: none;
+	width: 26%;
+}
+
+
+/******** DESKTOP MEDIA QUERY ********/
+	@media all and (min-width: 1200px) {
+
+		/******** GLOBAL STYLES ********/
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content:
+		space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		width: 21%;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content:
+		space-between;
+	}
+
+
+	}
