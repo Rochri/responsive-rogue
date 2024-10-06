@@ -18,7 +18,6 @@ body {
     justify-content: center;
     align-items: center;
 	flex-flow: row wrap;
-	
 }
 
 h1,
@@ -41,24 +40,23 @@ h3 {
 p {
 	font-size: 0.875em;
 	line-height: 21px;
-    padding: 0 30px;
+    padding: 20px 0 20px 0;
 }
 
 /*The widths are in a percentage!*/
 header {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
+    display: flex;
+	justify-content:center;
+	align-items: center;
 	
 }
 
 header h1 {
-	padding: 20px 0;
-	display: flex;
-    justify-content: flex-start;
-    align-items: center;
-	flex-flow: row wrap;
-	
+	width: 100%
+	padding: 0px 30px;
+	border-bottom: 3px solid #77a466;
 }
+
 header h1 span {
 	color: #77a466;
 }
@@ -96,7 +94,6 @@ header nav ul li a{
 	
 }
 
-
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -122,7 +119,7 @@ header nav ul li a{
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	padding: 10px 30px;
 }
 .section-two h3 {
 padding: 10px 30px;
