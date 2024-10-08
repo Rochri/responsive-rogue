@@ -13,7 +13,7 @@ body {
 
 .container{
 	max-width: 1200px;
-	width: 100%;
+	width: 90%;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +47,15 @@ p {
 header {
     display: flex;
 	justify-content:center;
-	align-items: center;
+	text-align: center;
 	
 }
 
 header h1 {
 	width: 100%
-	padding: 0px 30px;
+	padding: 38px 0px 20px 0;
 	border-bottom: 3px solid #77a466;
+	margin: 0;
 }
 
 header h1 span {
@@ -88,8 +89,9 @@ header nav ul li a{
 .bottom-section {
 	width: 100%;
 	display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+   
+	align-items: center;
 	flex-flow: row wrap;
 	
 }
@@ -177,8 +179,8 @@ footer span {
 	/******** BOTTOM SECTION ********/
 
 .bottom-section {
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 	
 }
 
